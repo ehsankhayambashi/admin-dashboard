@@ -12,7 +12,7 @@ function Project() {
   const firstCol = project.staticInfo.slice(0, firstColNum);
   const secondCol = project.staticInfo.slice(firstColNum, secondColNum);
   return (
-    <div className="bg-zinc-100 w-screen p-3 flex flex-col items-center gap-5">
+    <div className="bg-zinc-300 w-screen min-h-screen p-3 flex flex-col items-center gap-5">
       <ProjectHeader title="استانداردها، کاربردها و نقشه راه ارتباطات رادیویی" />
       <div className="flex flex-row w-full items-center justify-center gap-5">
         <Card>
