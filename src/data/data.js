@@ -84,7 +84,7 @@ export const projects = [
   },
 ];
 export const project = {
-  state: 1,
+  state: 4,
   progress: 77,
   columnInfo: [
     { name: "مبلغ قرارداد", value: "۵۰۰" },
@@ -247,3 +247,67 @@ export const project = {
     },
   ],
 };
+export const loginFields = [
+  {
+    labelText: "ایمیل",
+    labelFor: "email",
+    id: "email",
+    name: "email",
+    type: "email",
+    autoComplete: "email",
+    isRequired: true,
+    placeholder: "ایمیل",
+  },
+  {
+    labelText: "رمز عبور",
+    labelFor: "password",
+    id: "password",
+    name: "password",
+    type: "password",
+    autoComplete: "current-password",
+    isRequired: true,
+    placeholder: "رمز عبور",
+  },
+];
+export const signupFields = [
+  {
+    labelText: "نام کاربری",
+    labelFor: "username",
+    id: "username",
+    name: "username",
+    type: "text",
+    autoComplete: "username",
+    isRequired: true,
+    placeholder: "نام کاربری",
+  },
+  {
+    labelText: "ایمیل",
+    labelFor: "email",
+    id: "email",
+    name: "email",
+    type: "email",
+    autoComplete: "email",
+    isRequired: true,
+    placeholder: "ایمیل",
+  },
+  {
+    labelText: "رمز عبور",
+    labelFor: "password",
+    id: "password",
+    name: "password",
+    type: "password",
+    autoComplete: "current-password",
+    isRequired: true,
+    placeholder: "رمز عبور",
+  },
+  {
+    labelText: "تکرار رمز عبور",
+    labelFor: "confirm-password",
+    id: "confirm-password",
+    name: "confirm-password",
+    type: "password",
+    autoComplete: "confirm-password",
+    isRequired: true,
+    placeholder: "تکرار رمز عبور",
+  },
+];

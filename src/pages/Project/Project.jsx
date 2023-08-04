@@ -21,8 +21,11 @@ function Project() {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   return (
-    <div className="bg-zinc-300 w-screen min-h-screen p-3 flex flex-col items-center gap-5">
+    <div className="bg-zinc-300  min-h-screen p-3 flex flex-col items-center gap-5">
       <ProjectHeader title="استانداردها، کاربردها و نقشه راه ارتباطات رادیویی" />
+      {/* <div className="flex flex-row flex-initial justify-center gap-5">
+        <div>right</div>
+        <div> */}
       <div className="flex flex-row w-full items-center justify-center gap-5">
         <Card>
           <div className="flex flex-row items-center w-96 gap-2">
@@ -49,7 +52,7 @@ function Project() {
           </div>
         </Card>
       </div>
-      <div className="flex flex-row w-full items-start justify-center gap-5 relative">
+      <div className="flex flex-row items-start justify-center gap-5 relative">
         <Card>
           <div className="w-96">
             <TableInfo
@@ -62,9 +65,9 @@ function Project() {
             />
           </div>
         </Card>
-        <div className="sticky top-10 left-0">
+        <div className="sticky top-10 ">
           <Card>
-            <div className="w-96  p-4">
+            <div className="w-96 p-4">
               <div className="flex gap-3 flex-col w-full">
                 <div className="w-full flex justify-center rounded">
                   {active.name}
@@ -80,6 +83,8 @@ function Project() {
         </div>
       </div>
     </div>
+    //</div>
+    //</div>
   );
 }
 
